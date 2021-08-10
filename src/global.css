@@ -1,0 +1,42 @@
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  font-family: sans-serif;
+  user-select: none;
+}
+
+html {
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+
+html body {
+  min-height: 100vh;
+  width: 100vw;
+  padding: 0;
+  margin: 0;
+  font-family: sans-serif;
+  background-repeat: no-repeat;
+  background-color: #FFF;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+textarea,
+input {
+  webkit-user-select: auto !important;
+  user-select: auto !important;
+  outline: none;
+}
